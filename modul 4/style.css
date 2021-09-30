@@ -1,0 +1,147 @@
+body{
+
+		background-color:purple;
+	}
+.header{
+	width: 100%;
+	background-color: #A239CA;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+.topnav{
+	text-align: left;
+	overflow: hidden;
+	background-color: #A239CA;
+}
+.teksjalan{
+	background-color: #0E0B16;
+	color: white;
+}
+
+.topnav a{
+	float: left;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 24px;
+}
+.topnav a:hover{
+	background-color: white;
+	color:purple;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.kolom{
+	float: left;
+	width: 31.33%;
+	padding: 10px;
+	text-align: justify;
+	color: white;}
+.kolom1{
+	font-size: 30px;
+	color: white;
+text-align: center;
+	}
+.kolomkonten1{
+	background-color: white;
+	float: center;
+	width: 100%;
+	padding: 10px;
+	text-align: justify;
+	margin-top: 200px;
+	color: black;
+}
+.kolomkonten{
+	background-color: white;
+	float: center;
+	width: 100%;
+	padding: 10px;
+	text-align: justify;
+	margin-top: 10px;
+	color: black;
+}
+.isikolom{
+	text-align: center;
+	background-color: #A239CA;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.footer{
+	width: 100%;
+	background-color: #A239CA;
+	padding: 7px;
+	text-align: center;
+}
+
+img{
+	width: 1200px;
+	height: 800px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: white;
+	border-width: 3px;
+	border-style: solid;
+}
+.imgkim{
+	width: 450px;
+	height: 800px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: purple;
+	border-width: 3px;
+	border-style: solid;
+}
+.banner{
+	background-color: purple;
+	padding: 2px;
+	margin-top: 200px;
+}
+.bener{
+	text-align: center;
+	background-color: white;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+.benerkonten{
+	text-align: left;
+	background-color: white;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.fixed-nav{
+	overflow: hidden;
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+
+.galeri{
+	background-color: purple;
+	padding: 2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.klas{
+	background-color: purple;
+	color:white;
+	font-size: 17px;
+	text-align: justify;
+}
